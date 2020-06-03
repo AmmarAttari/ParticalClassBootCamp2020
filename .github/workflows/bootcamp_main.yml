@@ -27,7 +27,7 @@ jobs:
       with:
         node-version: 12
     - name: Install Surge 
-      uses: npm install --global surge
+      uses: npm Install -g surge
     - name: Run Surge
       run: surge./ ParticalClassBoot_2020.surge.sh --token{{secrets.SURGE_TOKEN}}
  
